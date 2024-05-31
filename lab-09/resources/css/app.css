@@ -1,0 +1,38 @@
+/* Estilos específicos para el archivo Blade Contact Us */
+h1 {
+    color: #007bff; /* Color azul para el título */
+}
+
+form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Añadir espacio alrededor del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+label {
+    font-weight: bold; /* Texto en negrita para las etiquetas */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Fondo azul para el botón */
+    color: #fff; /* Texto blanco para el botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón */
+}
